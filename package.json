@@ -1,11 +1,28 @@
 {
-    "name": "ngx-quill- paste",
-    "version": "1.0.1",
-    "main": "main.js",
-    "author": "Ivan Fedorov [spacegangster]",
-    "license": "MIT",
-    "dependencies": {
-      "quill": ">=1.3.6",
-      "quill-delta": ">=4.1.0"
-    }
-  }
+  "name": "ngx-quill-paste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virendrasinghpawar/ngx-quill-paste.git"
+  },
+  "keywords": [
+    "quill",
+    "paste",
+    "issue",
+    "scroll",
+    "jump",
+    "angular",
+    "issue"
+  ],
+  "author": "Virendra Singh Pawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virendrasinghpawar/ngx-quill-paste/issues"
+  },
+  "homepage": "https://github.com/virendrasinghpawar/ngx-quill-paste#readme"
+}
