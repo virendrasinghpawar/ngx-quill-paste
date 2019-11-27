@@ -1,0 +1,11 @@
+{
+    "name": "ngx-quill- paste",
+    "version": "1.0.1",
+    "main": "main.js",
+    "author": "Ivan Fedorov [spacegangster]",
+    "license": "MIT",
+    "dependencies": {
+      "quill": ">=1.3.6",
+      "quill-delta": ">=4.1.0"
+    }
+  }
