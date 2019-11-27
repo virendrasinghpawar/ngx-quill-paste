@@ -16,6 +16,6 @@ npm install ngx-quill-paste --save
 
 ```js
 // in your app – import and register the module
-import PlainTextClipboard from 'ngx-quill-paste'
+import PasteClipboard from 'ngx-quill-paste'
 
 Quill.register('modules/clipboard', PasteClipboard);
