@@ -10,6 +10,10 @@ export default class PasteClipboard extends Clipboard {
         let delta = new Delta().retain(range.index);
         if (e && e.clipboardData && e.clipboardData.types && e.clipboardData.getData) {
             let text = (e.originalEvent || e).clipboardData.getData('text/html');
+            if (!text) {
+                console.log("text before",text);
+               text= (e.originalEvent || e).clipboardData.getData('text/plain');
+            }
             let cleanedText = this.convert(text);
             e.stopPropagation();
             e.preventDefault();
